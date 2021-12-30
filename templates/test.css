@@ -1,0 +1,78 @@
+  .border {
+    border-color: purple;
+    border-width: 5px;
+    border-style: double;
+  }
+
+/* start of example styling */
+/****************************************/
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    margin: 0px;
+  }
+/****************************************/
+/* end of example styling */
+
+  .Fcontainer {
+    solid-color: #222222;
+    background-color: silver;
+    width: 412px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 500px;
+  }
+
+  .fHeader {
+    text-align: center;
+  }
+  .head{
+    margin-bottom: 5px;
+  }
+
+  [type='button'] {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  [type='input'] {
+    background-color: aqua;
+
+  }
+
+  .subHead {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -5px;
+  }
+
+
+
+  .email {
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .text {
+    padding: 5px;
+    margin-left: 5px;
+    text-align: left;
+    width: 200px;
+  }
+
+
+
