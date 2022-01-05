@@ -10,6 +10,12 @@ def about(request):
     #return HttpResponse("This is my About page.")
     return render(request, 'about.html')
 
+
+def project(request):
+    # return HttpResponse("This is my Project page.")
+    return render(request, 'projects.html')
+
+
 def contact(request):
     #return HttpResponse("This is my Contact page.")
     if request.method=="POST":
@@ -22,8 +28,7 @@ def contact(request):
         contact.save()
     return render(request, 'contact.html')
 
-def project(request):
-    return HttpResponse("This is my Project page.")
-    return render(request, 'project.html')
+
+
 
 
